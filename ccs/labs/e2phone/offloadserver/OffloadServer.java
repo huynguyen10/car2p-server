@@ -22,7 +22,7 @@ public class OffloadServer {
 
     public static void main(String[] args) throws Exception {
 
-        DatagramSocket udpSocket = new DatagramSocket(12345);
+        DatagramSocket udpSocket = new DatagramSocket(28120);
 
         try {
             System.out.println("Waiting for incoming connections...");
